@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/adam/git/fi-hmi",
+			"file_exclude_patterns": [
+				"*.aux", "*.bbl", "*.blg", "*.gz", "*.fdb*", "*.pdf"
+			]
+		}
+	]
+}

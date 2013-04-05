@@ -1,0 +1,476 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"site",
+				"site-nav__item"
+			],
+			[
+				"control",
+				"controlsContainer"
+			],
+			[
+				"media",
+				"media__object"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"lie",
+				"line-height"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"w",
+				"whitish"
+			],
+			[
+				"la",
+				"last-of-type"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"last",
+				"last-child"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"li",
+				"line-height"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.tex",
+			"settings":
+			{
+				"buffer_size": 1137,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sources.bib",
+			"settings":
+			{
+				"buffer_size": 97,
+				"line_ending": "Unix",
+				"name": "@misc{ Nobody06,"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"la",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"late",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"i",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"p",
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"I",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Pa",
+				"Package Control: List Packages"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/adam/git/fi-hmi/index.log",
+		"/home/adam/git/pohledzvenku.cz/pohled-zvenku.sublime-project",
+		"/home/adam/git/pohledzvenku.cz/pohled-zvenku.sublime-workspace",
+		"/home/adam/git/pohledzvenku.cz/assets/site/css/_icons.scss",
+		"/home/adam/git/pohledzvenku.cz/assets/site/css/_typo.scss",
+		"/home/adam/git/pohledzvenku.cz/assets/site/css/ie.scss",
+		"/home/adam/git/pohledzvenku.cz/assets/site/css/ie.min.css",
+		"/home/adam/git/pohledzvenku.cz/assets/site/css/_layout.scss",
+		"/home/adam/git/pohledzvenku.cz/assets/site/css/_templates.scss",
+		"/home/adam/git/rentreview.cz/assets/site/js/jquery.equalheights.min.js",
+		"/home/adam/git/rentreview.cz/index.html",
+		"/home/adam/git/rentreview.cz/assets/site/js/jquery.flexslider.min.js",
+		"/home/adam/radio-stable/classes/OdkazyListFactory.class.php",
+		"/home/adam/radio-stable/view/xhtml/xsl/page/paramlist.xsl",
+		"/home/adam/radio-stable/view/xhtml/xsl/page/how-to-listen.xsl",
+		"/home/adam/radio-stable/config/cs.mp_projekty.xml",
+		"/home/adam/radio-stable/config/cs.mp_uzitinfo.xml",
+		"/home/adam/radio-stable/lib/model.php",
+		"/home/adam/radio-stable/lib/mpparser.inc.php",
+		"/home/adam/radio-stable/view/xhtml/OdkazyListVP.inc.php",
+		"/home/adam/radio-stable/view/xhtml/ProjektyListVP.inc.php",
+		"/home/adam/radio-stable/lib/model.classes.php",
+		"/home/adam/radio-stable/radio.php",
+		"/home/adam/radio-stable/view/xhtml/FacebookPromoVP.inc.php",
+		"/home/adam/radio-stable/view/xhtml/TwitterPromoVP.inc.php",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--twitter.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--search.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/sticky__post-it-bg.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--rss.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--facebook.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--external.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--category.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--bubble.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--authors.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--author.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--arrow.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--add.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/main-logo.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/sticky__post-it-bg_cleaned.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--rss_cleaned.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--external_cleaned.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--cc.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--cc-nd.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--cc-by.min.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--authors_cleaned.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--author_cleaned.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--category_cleaned.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--arrow_cleaned.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--add_cleaned.svgz",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--add.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--add_cleaned.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--facebook.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--facebook_cleaned.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/main-logo.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/main-logo_cleaned.svg",
+		"/home/adam/git/pohledzvenku.cz/assets/site/images/icon--category.svg",
+		"/home/adam/radio-stable/locale/es_ES.utf8/LC_MESSAGES/messages.po",
+		"/home/adam/radio-stable/locale/ru_RU.utf8/LC_MESSAGES/messages.po",
+		"/home/adam/radio-stable/locale/fr_FR.utf8/LC_MESSAGES/messages.po",
+		"/home/adam/radio-stable/locale/en_US.utf8/LC_MESSAGES/messages.po",
+		"/home/adam/radio-stable/locale/de_DE.utf8/LC_MESSAGES/messages.po",
+		"/home/adam/radio-stable/locale/cs_CZ.utf8/LC_MESSAGES/messages.po",
+		"/home/adam/radio-stable/config/cs.mp_layouts.xml",
+		"/home/adam/git/pohledzvenku.cz/assets/site/css/default.min.css",
+		"/home/adam/radio-stable/content/feeds/rss/en/themes/politics.xml",
+		"/home/adam/radio-stable/lib/linkwriters.inc.php",
+		"/home/adam/radio-stable/content/feeds/rss/en/themes/life.xml",
+		"/home/adam/radio-stable/content/feeds/rss/en/themes/science.xml",
+		"/home/adam/radio-stable/lib/config.inc.php",
+		"/home/adam/radio-stable/lib/local.config.inc.php",
+		"/home/adam/radio-stable/content/xml-data/tematic_rss_channels.xml",
+		"/home/adam/radio-stable/view/xhtml/xsl/page/schedule-base.xsl",
+		"/home/adam/radio-stable/content/rss",
+		"/home/adam/radio-stable/assets/styles/cro7-cz.css",
+		"/home/adam/git/pohledzvenku.cz/archive.html",
+		"/home/adam/git/pohledzvenku.cz/assets/site/css/default.scss",
+		"/home/adam/git/pohledzvenku.cz/index.html",
+		"/home/adam/git/pohledzvenku.cz/article.html"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/adam/radio-stable"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\9",
+			"/9",
+			"auto",
+			"faceb",
+			"odkazy",
+			"media--thumb--left",
+			"inline-list__item",
+			"rss",
+			"Klic rubrika-uri musi existovat",
+			"DATA_",
+			"margin",
+			"%;\n",
+			"bubble",
+			"category",
+			"icon category",
+			"search",
+			"sidebar__content",
+			"cf",
+			"--cf",
+			"cleared",
+			"--section",
+			"article--preview",
+			"article__info__item",
+			"social",
+			"article-preview",
+			".article-preview"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"media--left",
+			"t-button",
+			"icon--bubble",
+			"icon--category",
+			"subscription",
+			"t-sidebar",
+			"",
+			"--cleared",
+			"cleared",
+			"cf",
+			"--half",
+			"article-preview",
+			"article--preview",
+			".article--preview"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.tex",
+					"settings":
+					{
+						"buffer_size": 1137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1137,
+								1137
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sources.bib",
+					"settings":
+					{
+						"buffer_size": 97,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"auto_name": "@misc{ Nobody06,",
+							"syntax": "Packages/LaTeX/Bibtex.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": false
+}
