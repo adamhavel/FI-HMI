@@ -6,6 +6,12 @@
 			"file_exclude_patterns": [
 				"*.aux", "*.bbl", "*.blg", "*.gz", "*.fdb*", "*.pdf"
 			]
+		},
+		{
+			"path": "/F/stuff/school/fit/fi-hmi",
+			"file_exclude_patterns": [
+				"*.aux", "*.bbl", "*.blg", "*.gz", "*.fdb*", "*.pdf"
+			]
 		}
 	]
 }

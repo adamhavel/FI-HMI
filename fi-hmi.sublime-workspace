@@ -115,16 +115,16 @@
 			"file": "index.tex",
 			"settings":
 			{
-				"buffer_size": 1137,
-				"line_ending": "Unix"
+				"buffer_size": 1069,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "sources.bib",
 			"settings":
 			{
-				"buffer_size": 97,
-				"line_ending": "Unix",
+				"buffer_size": 101,
+				"line_ending": "Windows",
 				"name": "@misc{ Nobody06,"
 			}
 		}
@@ -136,16 +136,16 @@
 		"selected_items":
 		[
 			[
+				"i",
+				"Indentation: Reindent Lines"
+			],
+			[
 				"la",
 				"LaTeXTools: View PDF"
 			],
 			[
 				"late",
 				"LaTeXTools: View PDF"
-			],
-			[
-				"i",
-				"Indentation: Reindent Lines"
 			],
 			[
 				"p",
@@ -168,11 +168,11 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 400.0
 	},
 	"console":
 	{
-		"height": 153.0
+		"height": 136.0
 	},
 	"distraction_free":
 	{
@@ -185,6 +185,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/adam/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
 		"/home/adam/git/fi-hmi/index.log",
 		"/home/adam/git/pohledzvenku.cz/pohled-zvenku.sublime-project",
 		"/home/adam/git/pohledzvenku.cz/pohled-zvenku.sublime-workspace",
@@ -346,15 +347,15 @@
 					"file": "index.tex",
 					"settings":
 					{
-						"buffer_size": 1137,
+						"buffer_size": 1069,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1137,
-								1137
+								224,
+								224
 							]
 						],
 						"settings":
@@ -368,21 +369,27 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 1,
 					"file": "sources.bib",
 					"settings":
 					{
-						"buffer_size": 97,
+						"buffer_size": 101,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								97,
-								97
+								0,
+								0
 							]
 						],
 						"settings":
@@ -396,11 +403,6 @@
 					},
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -441,7 +443,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.exec":
 	{
 		"height": 124.0
@@ -470,7 +472,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 245.0,
 	"status_bar_visible": false
 }
