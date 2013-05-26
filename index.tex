@@ -1,22 +1,41 @@
 \documentclass[12pt]{article}
 \usepackage{amsmath}
-\usepackage{cite}
+\usepackage[numbers]{natbib}
 \usepackage[czech]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\title{\LaTeX}
+\title{FI-HMI: Temperovaná ladění}
 \date{\today}
 \author{Adam Havel}
 \begin{document}
-\maketitle
-\section{Testovací ěščřžýáíé kapitola}
-BibTeX je založen na myšlence oddělení bibliografické informace od jejího formátování (vzhledu), podobně jako při použití CSS pro formátování vzhledu HTML stránek. Informace o citovaných pramenech se ukládají do textového souboru, obvykle s příponou .bib. Jiný textový soubor, obvykle s příponou .bst, obsahuje informace o formátování potřebné pro vysázení citovaných položek. Je k dispozici řada těchto souborů definujících styl citace použité literatury. Pro citaci dle ČSN ISO 690 lze použít styl csplainnat.bst nebo czechiso.bst ~\cite{Nobody06}
 
-  % This is a comment; it will not be shown in the final output.
-  \begin{align}
-  E &= mc^2                              \\
-  m &= \frac{m_0}{\sqrt{1-\frac{v^2}{c^2}}}
-  \end{align}
-  \bibliography{sources}{}
-  \bibliographystyle{plain}
-  \end{document}
+\maketitle
+
+\section{Kapitola}
+1. Hudební sluch
+
+2. Harmonická řada (vibrace, barva nástroje)
+
+3. Pentatonika (šestý alikvótní tón, oktávy)
+
+4. Přirozené ladění (Pythagorejské, Didymické, enharmonické intervaly, kvintový kruh)
+
+5. Baroko a cembalo (modulace, Bach, dur-mollové harmonie, konsonantní tercie a kvintakordy)
+
+6. Temperovaná ladění (rozdílnost tónin)
+
+7. Rovnoměrně temperované ladění (důvod, důsledky, matika)
+
+8. Současnost
+
+\cite{bernstein} \cite{smolka}
+
+\begin{align}
+E &= mc^2                              \\
+m &= \frac{m_0}{\sqrt{1-\frac{v^2}{c^2}}}
+\end{align}
+
+\bibliography{sources}{}
+\bibliographystyle{plainnat}
+
+\end{document}

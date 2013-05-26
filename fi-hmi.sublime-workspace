@@ -115,7 +115,7 @@
 			"file": "index.tex",
 			"settings":
 			{
-				"buffer_size": 1069,
+				"buffer_size": 897,
 				"line_ending": "Windows"
 			}
 		},
@@ -123,13 +123,13 @@
 			"file": "sources.bib",
 			"settings":
 			{
-				"buffer_size": 101,
+				"buffer_size": 240,
 				"line_ending": "Windows",
 				"name": "@misc{ Nobody06,"
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"command_palette":
 	{
 		"height": 392.0,
@@ -141,7 +141,23 @@
 			],
 			[
 				"la",
+				"LaTeXTools: Jump to PDF"
+			],
+			[
+				"l",
 				"LaTeXTools: View PDF"
+			],
+			[
+				"lat",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Commit"
 			],
 			[
 				"late",
@@ -186,6 +202,8 @@
 	"file_history":
 	[
 		"/C/Users/adam/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
+		"/F/stuff/school/fit/FI-HMI/fi-hmi.sublime-project",
+		"/F/stuff/school/fit/fi-hmi/fi-hmi.sublime-project",
 		"/home/adam/git/fi-hmi/index.log",
 		"/home/adam/git/pohledzvenku.cz/pohled-zvenku.sublime-project",
 		"/home/adam/git/pohledzvenku.cz/pohled-zvenku.sublime-workspace",
@@ -347,21 +365,21 @@
 					"file": "index.tex",
 					"settings":
 					{
-						"buffer_size": 1069,
+						"buffer_size": 897,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								224,
-								224
+								566,
+								566
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"tab_size": 3,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -381,15 +399,15 @@
 					"file": "sources.bib",
 					"settings":
 					{
-						"buffer_size": 101,
+						"buffer_size": 240,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								240,
+								240
 							]
 						],
 						"settings":
@@ -445,6 +463,10 @@
 	},
 	"menu_visible": false,
 	"output.exec":
+	{
+		"height": 130.0
+	},
+	"output.git":
 	{
 		"height": 124.0
 	},
