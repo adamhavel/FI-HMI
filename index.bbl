@@ -1,14 +1,22 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[oct()]{octave_circularity}
+{The mechanism of octave circularity in the auditory brain}.
+\newblock URL \url{http://www.neuroscience-of-music.se/eng7.htm}.
+
 \bibitem[wik()]{wiki_pitch}
 {History of pitch standards in Western music}.
 \newblock URL
-  \url{http://en.wikipedia.org/wiki/Concert_pitch#History_of_pitch_standards_i%
-n_Western_music}.
+  \url{http://en.wikipedia.org/wiki/Concert_pitch#History_of_pitch_standards_in_Western_music}.
+
+\bibitem[Smolka(2001)]{smolka}
+Jaroslav Smolka.
+\newblock \emph{{Dějiny hudby}}.
+\newblock 2001.
 
 \end{thebibliography}

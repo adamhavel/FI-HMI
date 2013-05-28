@@ -20,6 +20,8 @@ INPUT c:/Users/adam/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT c:/Users/adam/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT c:/Users/adam/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT c:/Users/adam/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT c:/Users/adam/texlive/2012/texmf-dist/tex/latex/url/url.sty
+INPUT c:/Users/adam/texlive/2012/texmf-dist/tex/latex/url/url.sty
 INPUT c:/Users/adam/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
 INPUT c:/Users/adam/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
 INPUT c:/Users/adam/texlive/2012/texmf-dist/tex/generic/babel/babel.sty
@@ -65,14 +67,14 @@ INPUT c:/Users/adam/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT c:/Users/adam/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT c:/Users/adam/texlive/2012/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT c:/Users/adam/texlive/2012/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+OUTPUT index.pdf
+INPUT c:/Users/adam/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT c:/Users/adam/texlive/2012/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
 INPUT index.bbl
 INPUT index.bbl
 INPUT c:/Users/adam/texlive/2012/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT c:/Users/adam/texlive/2012/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT c:/Users/adam/texlive/2012/texmf-dist/fonts/tfm/jknappen/ec/ectt1200.tfm
-INPUT c:/Users/adam/texlive/2012/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
-OUTPUT index.pdf
-INPUT c:/Users/adam/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT index.aux
 INPUT c:/Users/adam/texlive/2012/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT c:/Users/adam/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
