@@ -4,6 +4,7 @@
 \usepackage{graphicx}
 \graphicspath{{./img/}}
 \usepackage{wrapfig}
+\renewcommand{\arraystretch}{2.5}
 \usepackage[numbers]{natbib}
 \usepackage[czech]{babel}
 \usepackage[T1]{fontenc}
@@ -27,7 +28,7 @@ Dnes už tušíme, že se absolutní sluch formuje především v raném dětstv
 
 Problém ovšem nastane v momentě, kdy si uvědomíme, že frekvence jednotlivých tónů jsou jen předmětem úzu a momentální dohody a jejich hodnoty se tedy v průběhu času významně mění. Dnes se jako reference pro lazení nástrojů většinou používá tzv. koncertní A o hodnotě 440 Hz, nicméně to samé A bylo na počátku předchozího století skoro o deset hertzů menší. Podíváme-li se až do osmnáctého století, zjistíme dokonce, že se tato frekvence významně lišila nejen v čase, ale například i v rámci různých měst, a to i o desítky hertzů \cite{wiki_pitch}!
 
-Ve světle těchto zjištění se absolutní sluch jeví jako svého druhu Danajský dar. V momentě, kdy orchestr ladí jinak, než je dnes zvyklé — třeba z důvodu větší autentičnosti u současných barokních souborů — pak člověk s absolutním sluchem narozdíl od běžného posluchače tento rozdíl slyší a nepříjemně pociťuje. Nicméně, ani běžní lidé nejsou ušetřeni následků změn hudebního úzu, protože se mění nejen tóny, ale i samotné vzdálenosti mezi nimi. Tyto intervaly určuje matematicky odvozený systém nazvaný ladění, kterých v historii vzniklo velké množství: v hudební tradici naší západní kultury například dominuje takzvané rovnoměrně temperované ladění. Tak to ovšem nebylo vždy.
+Ve světle těchto zjištění se absolutní sluch jeví jako svého druhu Danajský dar. V momentě, kdy orchestr ladí jinak, než je dnes zvyklé — třeba z důvodu větší autentičnosti u současných barokních souborů — slyší člověk s absolutním sluchem rozdíl a nepříjemně jej pociťuje. Nicméně, ani běžní posluchači nejsou ušetřeni následků změn hudebního úzu, protože se mění nejen tóny, ale i samotné vzdálenosti mezi nimi. Tyto intervaly určují matematicky odvozené systémy nazvané ladění, kterých v historii vzniklo velké množství: v hudební tradici naší západní kultury například dominuje takzvané rovnoměrně temperované ladění. Tak to ovšem nebylo vždy.
 
 \pagebreak
 
@@ -37,27 +38,25 @@ Hudba, jak ji známe, by nemohla existovat nebýt jedné vlastnosti lidského mo
 
 Ladění pak není nic jiného, než způsob, jak takto daný frekvenční rozsah rozdělit na jednotlivé tóny. Zde je důležité poznamenat, že ačkoliv v naší kultuře jsme zvyklí (už od Pythagora!) používat tónu dvanáct, jejich množství — ač podstatné — není pevně dané.
 
-\begin{wrapfigure}{l}{0.4 \textwidth}
-\centering
-\includegraphics[width = 0.1 \textwidth]{monochord.jpg}
-\caption{Monochord}
-\label{fig:monochord}
+\begin{wrapfigure}{l}{0.4 \textwidth}\centering
+	\includegraphics[width = 0.1 \textwidth]{monochord.jpg}
+	\caption{Monochord}
+	\label{fig:monochord}
 \end{wrapfigure}
 
 Právě Pythagorovi se pak přisuzuje jedno z nejstarších známých ladění, které se hojně používalo až do 16. století \cite{smolka}. Rozložení tónů v tomto systému bylo založeno na pozorování takzvaného \emph{monochordu}, což byl jednoduchý hudební — nebo spíše vědecký — nástroj o jedné (či více) strunách, určený k demonstraci vlastností tónů. S jeho pomocí tedy mohli zkoumat třeba výše zmíněnéný interval oktávy, a to tak, že strunu zkrátili na polovinu, čímž se frekvence tónu zdvojnásobila.
 
-Řekové si tehdy všimli, že struna uchycená na dvou koncích vibruje s frekvencí o vlnové délce rovné dvojnásobku délky struny — této frekvenci se říká \emph{fundemantální}. Ovšem mnohem důležitější bylo zjištění, že struna zároveň vibruje i s dalšími frekvencemi. Další z nich má vlnovou délku rovnou délce struny, její frekvence je tedy dvákrat tak velká, což znamená, že jde o interval oktávy. Vibruje-li tedy struna s frekvencí 100 Hz, vibruje zároveň i s frekvencí 200 Hz. Tímto způsobem dělení struny pokračuje a jako další pozorujeme vibraci o 300 Hz, která je s předchozí oktavou v poměru 3:2 a jedná se o interval čisté kvinty. Jak můžeme vidět na obrázku ~\ref{fig:harmonics}, další frekvence je zase oktáva o frekvenci 400 Hz a až poté následuje nový tón o 500 Hz. Ten je s předchozí oktávou v poměru 5:4, jde tedy o velkou tercii. Následuje další kvinta a tak dále.
+Řekové si tehdy všimli, že struna upevněná na obou koncích vibruje s frekvencí o vlnové délce rovné dvojnásobku délky struny — této frekvenci se říká \emph{fundemantální}. Ovšem mnohem důležitější bylo zjištění, že struna zároveň vibruje i s dalšími frekvencemi. První z nich má vlnovou délku rovnou délce struny, její frekvence je tedy dvákrat tak velká, což znamená, že jde o interval oktávy. Vibruje-li tedy struna se základní frekvencí 100 Hz, vibruje zároveň i s frekvencí dvojnásobnou, tedy 200 Hz. Jako další pozorujeme vibraci o 300 Hz, která je s předchozí oktavou v poměru 3:2 a jedná se o interval čisté kvinty. Jak můžeme vidět na obrázku ~\ref{fig:harmonics}, následující frekvence je zase oktáva, tentokrát o 400 Hz, a až po ní se objevuje nový tón, s frekvencí 500 Hz. Ten je s předchozí oktávou v poměru 5:4, jde tedy o velkou tercii. Poté následuje další kvinta a tak dále.
 
-Tyto tóny se označují jako \emph{alikvótní} a jejich funkce je naprosto zásadní, protože jejich množství a intenzita v poměru k fundamentálnímu tónu vytvářejí takzvanou barvu tónu. A právě díky barvě jsme jen podle sluchu schopni poznat hudební nástroj jeden od druhého. Některé, třeba flétna, disponují jen alikvótními tóny oktávy, jiné zase jen těmi lichými a podobně.
-
-\begin{figure}[p]
-\centering
-\includegraphics[width = .9 \textwidth]{harmonics.pdf}
-\caption{Harmonická řada (zdroj: Wikimedia)}
-\label{fig:harmonics}
+\begin{figure}[p]\centering
+	\includegraphics[width = .9 \textwidth]{harmonics.pdf}
+	\caption{Harmonická řada (zdroj: Wikimedia)}
+	\label{fig:harmonics}
 \end{figure}
 
-Než budeme pokračovat dále, je třeba si uvědomit několik poznatků. Zaprvé, alikvótní tóny jsou zjevně členy aritmetické posloupnosti o diferenci rovné fundamentální frekvenci. Zadruhé, vyšší oktávy a kvinty jsou nedílnou a podstatnou součastí většiny vibrujících těles. A zatřetí, jak postupujeme v harmonické řadě, objevují se stále menší intervaly a zlomky vyjadřující poměr k oktávám jsou čím dál složitější. Čistá kvinta s poměrem 3:2 je pak tedy hned po oktávě nejjednodušší interval. To je důležite i proto, že náš mozek vnímá intervaly, které se dají vyjádřit pomocí poměru malých čísel, jako uklidňující. Naproti tomu ty intervaly, které mají ve zlomku velká čísla, považuje za nepříjemné.
+Tyto tóny se označují jako \emph{alikvótní} a jejich funkce je naprosto zásadní, protože jejich množství a intenzita v poměru k fundamentální frekvenci vytvářejí takzvanou barvu tónu. A právě díky barvě jsme jen podle sluchu schopni poznat hudební nástroj jeden od druhého. Některé, třeba flétna, disponují jen alikvótními tóny oktávy, jiné zase jen těmi lichými a podobně.
+
+Než budeme pokračovat dále, je třeba si uvědomit několik poznatků. Zaprvé, alikvótní tóny jsou zjevně členy aritmetické posloupnosti o diferenci rovné fundamentální frekvenci. Zadruhé, vyšší oktávy a kvinty jsou nedílnou a podstatnou součastí většiny vibrujících těles. A zatřetí, jak postupujeme v harmonické řadě, objevují se stále menší intervaly a zlomky vyjadřující poměr k oktávám jsou čím dál složitější. Čistá kvinta s poměrem 3:2 je pak tedy hned po oktávě nejjednodušší interval. To je důležite i proto, že náš mozek vnímá intervaly, které se dají vyjádřit pomocí poměru malých čísel, jako stabilní. Naproti tomu ty intervaly, které mají ve zlomku velká čísla, považujeme za nepříjemné či nestabilní a nazýváme je disonantní.
 
 Není proto náhodou, že nejstarší pentatonické stupnice (stupnice o pěti tónech) jsou založeny právě na intervalech přirozeně se vyskytujících v přírodě v podobě alikvótních tónů. Krom oktávy a kvinty jsou to velká tercie, čistá kvarta a malá septima. O tercii jsme se již zmínili, zaměříme se proto na poslední dva. Kvarta se ve skutečnosti v harmonické řadě objevuje až jako dvacátý alikvótní tón, ale dá se jednoduše matematicky odvodit ze svého vztahu ke kvintě. Jde totiž o její inverzi, což znamená, že složíme-li dohromady interval kvinty a kvarty, dostaneme oktávu. Víme-li, že kvinta je v poměru 3:2 a oktáva 2:1, můžeme si lehce odvodit, že kvarta představuje zlomek 4:3.
 
@@ -65,15 +64,47 @@ S přirozenou malou septimou je to složitější. Ta se v harmonické řadě ob
 
 \section{Čistá ladění}
 
-S předchozími znalostmi se konečně můžeme vrátit k Pythagorovi a jeho ladění, jehož základy stojí právě na intervalech oktávy a kvinty.  
+S předchozími znalostmi se konečně můžeme vrátit k Pythagorovi a jeho ladění, jehož základy stojí právě na intervalech oktávy a kvinty. Princip je takový, že všechny tóny vytvoříme jen skladáním těchto dvou intervalů. To znamená, že si vybereme tón, třeba D, a jeho frekvenci vynásobíme v poměru 3:2, čímž získáme interval kvinty a tón A. Od A postupujeme stejně, tedy násobíme 3:2. Tím se ovšem dostaneme mimo rozsah oktávy a proto frekvenci vydělíme dvěma. Výsledkem je tón E a interval velké sekundy s poměrem 9:8.
+Stejným způsobem můžeme postupovat i směrem \uv{dolů} od základního D, akorát místo 3:2 násobíme v poměru 2:3, což značí snížení o interval kvinty. Abychom se vrátili do správné oktávy, musíme pak ještě výsledek vynásobit dvěma. Další výpočty pro ostatní tóny a jejich hodnoty jsou k vidění v tabulce ~\ref{tbl:pythagorean}. 
+
+Již na první pohled zde vidíme zásadní problém — velká část intervalů je vyjádřena jako poměr relativně vysokých čísel a jak už jsme popsali výše, takové intervaly se našemu sluchu jeví jako velmi disonantní. Právě proto se v hudební tradici středověku, například v gregoriánských chorálech, objevují v podstatě jen intervaly oktávy, kvarty a kvinty \cite{smolka}.
+
+Na druhý pohled zjistíme, že tónů je v tabulce třináct, na dvanáct, jak bychom očekávali. Na vině je fakt, že snížená kvinta a zvětšená kvarta je ve skutečnosti (alespoň v našem temperovaném ladění) jeden a ten samý interval, nazvaný \emph{tritón}, a tóny G$\sharp$ a A$\flat$ jsou takzvaně \emph{enharmonické}, neboli stejné. Podíváme-li se ovšem na jejich poměry v tabulce, zjistíme, že se liší — jedná se tedy o různé tóny.
+
+Rozdílu mezi těmito dvěma tóny se říká \emph{Pythagorejské koma}. Jde o velmi malý interval, který si můžeme vyjádřit jako poměr dvanácti čistých kvint ku sedmi oktávám:
+
+\begin{equation}
+\dfrac{\left(3 : 2\right)^{12}}{\left(2 : 1\right)^7} = \dfrac{3^{12}}{2^{12 + 7}} = \dfrac{531441}{524288} \approx 1,01364
+\end{equation}
+
+Ke stejnému poměru bychom došli, pokud bychom dělili interval šesti velkých sekund, neboli $(9 : 8)^6$, oktávou, tedy dvěma. Ačkoliv by taková posloupnost sekund měla vést k čisté oktávě, výsledkem je zase interval o něco málo větší. Tímto způsobem ostatně ono koma objevil a spočítal již Euklides \cite{barker}.
+
+\begin{table}[p]\centering
+	\begin{tabular}{c c c c}
+		\textbf{Tón} & \textbf{Interval} & \textbf{Výpočet} & \textbf{Poměr} \\ \hline
+		A$\flat$ & snížená kvinta & $\left(\dfrac{2}{3}\right)^6 \times 2^4$ & $\dfrac{1024}{729}$ \\
+		E$\flat$ & malá sekunda & $\left(\dfrac{2}{3}\right)^5 \times 2^3$ & $\dfrac{256}{243}$ \\
+		B$\flat$ & malá sexta & $\left(\dfrac{2}{3}\right)^4 \times 2^3$ & $\dfrac{128}{81}$ \\
+		F & malá tercie & $\left(\dfrac{2}{3}\right)^3 \times 2^2$ & $\dfrac{32}{27}$ \\
+		C & malá septima & $\left(\dfrac{2}{3}\right)^2 \times 2^2$ & $\dfrac{16}{9}$ \\
+		G & čistá kvarta & $\dfrac{2}{3} \times 2$ & $\dfrac{4}{3}$ \\
+		D & čistá prima & $\dfrac{1}{1}$ & $\dfrac{1}{1}$ \\
+		A & čistá kvinta & $\dfrac{3}{2}$ & $\dfrac{3}{2}$ \\
+		E & velká sekunda & $\left(\dfrac{3}{2}\right)^2 \times \dfrac{1}{2}$ & $\dfrac{9}{8}$ \\
+		B & velká sexta & $\left(\dfrac{3}{2}\right)^3 \times \dfrac{1}{2}$ & $\dfrac{27}{16}$ \\
+		F$\sharp$ & velká tercie & $\left(\dfrac{3}{2}\right)^4 \times \left(\dfrac{1}{2}\right)^2$ & $\dfrac{81}{64}$ \\
+		C$\sharp$ & velká septima & $\left(\dfrac{3}{2}\right)^5 \times \left(\dfrac{1}{2}\right)^2$ & $\dfrac{243}{128}$ \\
+		G$\sharp$ & zvětšená kvarta & $\left(\dfrac{3}{2}\right)^6 \times \left(\dfrac{1}{2}\right)^3$ & $\dfrac{729}{512}$ \\
+	\end{tabular}
+	\caption{Pythagorejské ladění}
+	\label{tbl:pythagorean}
+\end{table}
+
+Zde je ovšem třeba si znovu připomenout, že není vůbec nutné, aby oktáva měla přesně dvanáct tónů. Stejně tak dobře jich může mít pět. Nebo tisíc. Pro potřeby Pythagorejského tonálního systému je však toto číslo vhodné z toho důvodu, že není příliš velké — což usnadňuje konstrukci hudebních nástrojů a neklade tak velké nároky na muzikanty — a zároveň s uspokojivou přesností uzavíra takzvaný \emph{kvintový kruh}, až na zmíněné Pythagorejské koma.
+
+Nicméně, už v roce zhruba 50 př. n. l. v Číně zjistil Ching Fang, že pokud se nezastavíme u dvanácté kvinty, ale pokračujeme až k její 53. iteraci, dostaneme systém, který kvintový kruh uzavírá s mnohem větší přesností. Výsledné koma, tentokrát nazvané po Nicholasu Mercatorovi, je pak zhruba rovné číslu 1,00209, což už je pro lidský sluch za hranicí rozlišitelnosti.
 
 \pagebreak
-
-Harmonická řada (vibrace, barva nástroje)
-
-Pentatonika (šestý alikvótní tón, oktávy)
-
-Přirozené ladění (Pythagorejské, Didymické, enharmonické intervaly, kvintový kruh)
 
 Baroko a cembalo (modulace, Bach, dur-mollové harmonie, konsonantní tercie a kvintakordy)
 
