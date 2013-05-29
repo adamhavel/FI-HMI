@@ -1,6 +1,8 @@
 \documentclass[12pt]{article}
 \usepackage{amsmath}
 \usepackage{url}
+\usepackage{graphicx}
+\graphicspath{{./img/}}
 \usepackage[numbers]{natbib}
 \usepackage[czech]{babel}
 \usepackage[T1]{fontenc}
@@ -34,6 +36,27 @@ Ladění pak není nic jiného, než způsob, jak takto daný frekvenční rozsa
 
 Právě Pythagorovi se pak přisuzuje jedno z nejstarších známých ladění, které se hojně používalo až do 16. století \cite{smolka}. Rozložení tónů v tomto systému bylo založeno na pozorování takzvaného \emph{monochordu}, což byl jednoduchý hudební — nebo spíše vědecký — nástroj o jedné (či více) strunách, určený k demonstraci vlastností tónů. S jeho pomocí tedy mohli zkoumat třeba výše zmíněnéný interval oktávy, a to tak, že strunu zkrátili na polovinu, čímž se frekvence tónu zdvojnásobila.
 
+Řekové si tehdy všimli, že struna uchycená na dvou koncích vibruje s frekvencí o vlnové délce rovné dvojnásobku délky struny — této frekvenci se říká \emph{fundemantální}. Ovšem mnohem důležitější bylo zjištění, že struna zároveň vibruje i s dalšími frekvencemi. Další z nich má vlnovou délku rovnou délce struny, její frekvence je tedy dvákrat tak velká, což znamená, že jde o interval oktávy. Vibruje-li tedy struna s frekvencí 100 Hz, vibruje zároveň i s frekvencí 200 Hz. Tímto způsobem dělení struny pokračuje a jako další pozorujeme vibraci o 300 Hz, která je s předchozí oktavou v poměru 3:2 a jedná se o interval čisté kvinty. Jak můžeme vidět na obrázku ~\ref{fig:harmonics}, další frekvence je zase oktáva o frekvenci 400 Hz a až poté následuje nový tón o 500 Hz. Ten je s předchozí oktávou v poměru 5:4, jde tedy o velkou tercii. Následuje další kvinta a tak dále.
+
+\begin{figure}
+\centering
+\includegraphics[width = .75 \textwidth]{harmonics.pdf}
+\caption{Harmonická řada (zdroj: Wikimedia)}
+\label{fig:harmonics}
+\end{figure}
+
+Tyto tóny se označují jako \emph{alikvótní} a jejich funkce je naprosto zásadní, protože jejich množství a intenzita v poměru k fundamentálnímu tónu vytvářejí takzvanou barvu tónu. A právě díky barvě jsme jen podle sluchu schopni poznat hudební nástroj jeden od druhého. Některé, třeba flétna, disponují jen alikvótními tóny oktávy, jiné zase jen těmi lichými a podobně.
+
+Než budeme pokračovat dále, je třeba si uvědomit několik poznatků. Zaprvé, alikvótní tóny jsou zjevně členy aritmetické posloupnosti o diferenci rovné fundamentální frekvenci. Zadruhé, vyšší oktávy a kvinty jsou nedílnou a podstatnou součastí většiny vibrujících těles. A zatřetí, jak postupujeme v harmonické řadě, objevují se stále menší intervaly a zlomky vyjadřující poměr k oktávám jsou čím dál složitější. Čistá kvinta s poměrem 3:2 je pak tedy hned po oktávě nejjednodušší interval. To je důležite i proto, že náš mozek vnímá intervaly, které se dají vyjádřit pomocí poměru malých čísel, jako uklidňující. Naproti tomu ty intervaly, které mají ve zlomku velká čísla, považuje za nepříjemné.
+
+Není proto náhodou, že nejstarší pentatonické stupnice (stupnice o pěti tónech) jsou založeny právě na intervalech přirozeně se vyskytujících v přírodě v podobě alikvótních tónů. Krom oktávy a kvinty jsou to velká tercie, čistá kvarta a malá septima. O tercii jsme se již zmínili, zaměříme se proto na poslední dva. Kvarta se ve skutečnosti v harmonické řadě objevuje až jako dvacátý alikvótní tón, ale dá se jednoduše matematicky odvodit ze svého vztahu ke kvintě. Jde totiž o její inverzi, což znamená, že složíme-li dohromady interval kvinty a kvarty, dostaneme oktávu. Víme-li, že kvinta je v poměru 3:2 a oktáva 2:1, můžeme si lehce odvodit, že kvarta představuje zlomek 4:3.
+
+S přirozenou malou septimou je to složitější. Ta se v harmonické řadě objevuje jako šestý člen o poměru 7:4, což je pomerně odlišné číslo, než k jakému matematicky dospěli Řekové nebo jaké dnes používáme my v temperovaném ladění. Proto by se na dnešním klavíru tento interval zahrát nedal, neboť by ležel někde mezi velkou sextou a malou septimou. Jeho velikost se lišila i v rámci různých kultur, například v čínské tradici se používal interval srovnatelný s naší dnešní malou septimou, zatímco v té africké to naopak byla spíše velká sexta \cite{bernstein}.
+
+\section{Čistá ladění}
+
+S předchozími znalostmi se konečně můžeme vrátit k Pythagorovi a jeho ladění, jehož základy stojí právě na intervalech oktávy a kvinty.  
+
 \pagebreak
 
 Harmonická řada (vibrace, barva nástroje)
@@ -50,10 +73,6 @@ Rovnoměrně temperované ladění (důvod, důsledky, matika)
 
 Současnost
 
-\begin{align}
-E &= mc^2                              \\
-m &= \frac{m_0}{\sqrt{1-\frac{v^2}{c^2}}}
-\end{align}
 
 \bibliography{sources}{}
 \bibliographystyle{plainnat}

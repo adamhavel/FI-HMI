@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{4}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,7 +12,13 @@
 \bibitem[wik()]{wiki_pitch}
 {History of pitch standards in Western music}.
 \newblock URL
-  \url{http://en.wikipedia.org/wiki/Concert_pitch#History_of_pitch_standards_in_Western_music}.
+  \url{http://en.wikipedia.org/wiki/Concert_pitch#History_of_pitch_standards_i%
+n_Western_music}.
+
+\bibitem[Bernstein(1973)]{bernstein}
+Leonard Bernstein.
+\newblock {The Unanswered Question}, 1973.
+\newblock URL \url{http://www.youtube.com/watch?v=U3HLqCHO08s}.
 
 \bibitem[Smolka(2001)]{smolka}
 Jaroslav Smolka.
