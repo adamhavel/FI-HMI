@@ -115,7 +115,7 @@
 			"file": "index.tex",
 			"settings":
 			{
-				"buffer_size": 4660,
+				"buffer_size": 12518,
 				"line_ending": "Windows"
 			}
 		},
@@ -123,7 +123,7 @@
 			"file": "sources.bib",
 			"settings":
 			{
-				"buffer_size": 568,
+				"buffer_size": 706,
 				"line_ending": "Windows",
 				"name": "@misc{ Nobody06,"
 			}
@@ -184,7 +184,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -300,7 +300,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"}!\n",
 			"\\9",
 			"/9",
 			"auto",
@@ -366,15 +365,15 @@
 					"file": "index.tex",
 					"settings":
 					{
-						"buffer_size": 4660,
+						"buffer_size": 12518,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4371,
-								4371
+								2915,
+								2915
 							]
 						],
 						"settings":
@@ -384,7 +383,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 741.0,
+						"translation.y": 980.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -400,15 +399,15 @@
 					"file": "sources.bib",
 					"settings":
 					{
-						"buffer_size": 568,
+						"buffer_size": 706,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								515,
-								515
+								706,
+								706
 							]
 						],
 						"settings":
@@ -453,7 +452,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.608984375,
 			1.0
 		],
 		"rows":
