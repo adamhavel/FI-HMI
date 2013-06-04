@@ -2,51 +2,53 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: index.aux
 The style file: plainnat.bst
 Database file #1: sources.bib
-Warning--to sort, need author or key in wiki_pitch
+Warning--to sort, need author or key in absolute_pitch
+Warning--to sort, need author or key in pitch
 Warning--to sort, need author or key in octave_circularity
+Warning--empty year in absolute_pitch
 Warning--empty year in octave_circularity
-Warning--empty year in wiki_pitch
+Warning--empty year in pitch
 Warning--empty publisher in barker
 Warning--empty publisher in smolka
-You've used 5 entries,
+You've used 6 entries,
             2773 wiz_defined-function locations,
-            611 strings with 5321 characters,
-and the built_in function-call counts, 1396 in all, are:
-= -- 114
+            614 strings with 5441 characters,
+and the built_in function-call counts, 1636 in all, are:
+= -- 137
 > -- 30
 < -- 3
-+ -- 14
++ -- 15
 - -- 9
-* -- 83
-:= -- 187
-add.period$ -- 13
-call.type$ -- 5
-change.case$ -- 16
-chr.to.int$ -- 5
-cite$ -- 18
-duplicate$ -- 85
-empty$ -- 167
+* -- 99
+:= -- 206
+add.period$ -- 15
+call.type$ -- 6
+change.case$ -- 19
+chr.to.int$ -- 6
+cite$ -- 23
+duplicate$ -- 100
+empty$ -- 202
 format.name$ -- 12
-if$ -- 303
+if$ -- 362
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 4
-newline$ -- 31
+newline$ -- 35
 num.names$ -- 12
-pop$ -- 66
+pop$ -- 80
 preamble$ -- 1
-purify$ -- 13
+purify$ -- 15
 quote$ -- 0
-skip$ -- 67
+skip$ -- 81
 stack$ -- 0
-substring$ -- 12
-swap$ -- 5
+substring$ -- 15
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 45
-warning$ -- 6
+type$ -- 56
+warning$ -- 8
 while$ -- 9
 width$ -- 0
-write$ -- 59
-(There were 6 warnings)
+write$ -- 68
+(There were 8 warnings)

@@ -115,7 +115,7 @@
 			"file": "index.tex",
 			"settings":
 			{
-				"buffer_size": 12518,
+				"buffer_size": 14834,
 				"line_ending": "Windows"
 			}
 		},
@@ -300,6 +300,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tzv.",
 			"\\9",
 			"/9",
 			"auto",
@@ -365,15 +366,15 @@
 					"file": "index.tex",
 					"settings":
 					{
-						"buffer_size": 12518,
+						"buffer_size": 14834,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2915,
-								2915
+								11479,
+								11479
 							]
 						],
 						"settings":
@@ -383,7 +384,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 980.0,
+						"translation.y": 3080.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -406,8 +407,8 @@
 						"selection":
 						[
 							[
-								706,
-								706
+								316,
+								316
 							]
 						],
 						"settings":
