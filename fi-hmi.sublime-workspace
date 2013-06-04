@@ -115,7 +115,7 @@
 			"file": "index.tex",
 			"settings":
 			{
-				"buffer_size": 14834,
+				"buffer_size": 18365,
 				"line_ending": "Windows"
 			}
 		},
@@ -123,7 +123,7 @@
 			"file": "sources.bib",
 			"settings":
 			{
-				"buffer_size": 706,
+				"buffer_size": 859,
 				"line_ending": "Windows",
 				"name": "@misc{ Nobody06,"
 			}
@@ -184,7 +184,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -201,6 +201,7 @@
 	},
 	"file_history":
 	[
+		"/F/stuff/school/fit/FI-HMI/index.bbl",
 		"/C/Users/adam/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
 		"/F/stuff/school/fit/FI-HMI/fi-hmi.sublime-project",
 		"/F/stuff/school/fit/fi-hmi/fi-hmi.sublime-project",
@@ -300,7 +301,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"tzv.",
+			"}!\n",
 			"\\9",
 			"/9",
 			"auto",
@@ -366,15 +367,15 @@
 					"file": "index.tex",
 					"settings":
 					{
-						"buffer_size": 14834,
+						"buffer_size": 18365,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11479,
-								11479
+								18349,
+								18349
 							]
 						],
 						"settings":
@@ -384,7 +385,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3080.0,
+						"translation.y": 5316.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -400,15 +401,15 @@
 					"file": "sources.bib",
 					"settings":
 					{
-						"buffer_size": 706,
+						"buffer_size": 859,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								316,
-								316
+								706,
+								653
 							]
 						],
 						"settings":
@@ -453,7 +454,7 @@
 		"cols":
 		[
 			0.0,
-			0.608984375,
+			0.5,
 			1.0
 		],
 		"rows":
