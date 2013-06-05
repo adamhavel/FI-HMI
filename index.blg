@@ -1,5 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2012/W32TeX)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: index.aux
 The style file: plainnat.bst
 Database file #1: sources.bib
@@ -13,7 +12,7 @@ Warning--empty publisher in barker
 Warning--empty publisher in smolka
 You've used 6 entries,
             2773 wiz_defined-function locations,
-            614 strings with 5441 characters,
+            614 strings with 5442 characters,
 and the built_in function-call counts, 1636 in all, are:
 = -- 137
 > -- 30
