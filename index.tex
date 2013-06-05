@@ -129,7 +129,7 @@ Temperovaná ladění se od sebe odlišují tím, jak k úpravě intervalů při
 
 Středotónová ladění se naopak vyznačují tím, že úpravy všech intervalů jsou identické. Nejdůležitější z nich je pak již zmíněné rovnoměrně temperované ladění.
 
-Tóny v tomto ladění můžeme vytvořit dvěma způsoby. V prvním z nich vyjdeme z Pythagorejského ladění, avšak místo čisté kvinty použijeme kvintu, ke které přidáme jednu dvanáctinu Pythagorejského koma. Když s takovým intervalem provedeme dvanáct kroků, musíme logicky skončit přesně na intervalu oktávy — koma jsme totiž rovnoměrně rozložili na všech dvanáct kvint a ty pak mají totožnou velikost.
+Tóny v tomto ladění můžeme vytvořit dvěma způsoby. V prvním z nich vyjdeme z Pythagorejského ladění, avšak místo čisté kvinty použijeme kvintu, ke které přidáme jednu dvanáctinu Pythagorejského koma. Pokud s takovým intervalem provedeme dvanáct kroků, musíme logicky skončit přesně na intervalu oktávy — koma jsme totiž rovnoměrně rozložili na všech dvanáct kvint a ty pak mají totožnou velikost.
 
 Druhý — a intuitivnější — způsob je založený na rozložení oktávy na dvanáct stejně velkých intervalů. Cílem je najít takový interval malé sekundy, abychom po dvanácti krocích dosáhli dvojnásobku počáteční frekvence. Takovou vlastnost splňuje dvanácta odmocnina ze dvou, neboť:
 
@@ -138,6 +138,30 @@ Druhý — a intuitivnější — způsob je založený na rozložení oktávy n
 \end{equation}
 
 Jde o irracionální číslo, jehož hodnota je přibližně rovna 1,059463, je tedy zřejmé, že všechny ostatní intervaly krom oktávy jsou taktéž vyjádřeny pomocí irracionálnich čísel a tím pádem se žádný nerovná svému čistému protějšku.
+
+Pro snadnější zápis velikosti intervalů vznikla jednotka — podobně jako decibel bezrozměrná a logaritmická — jménem cent, která je definována v tom smyslu, že v jedné oktávě je těchto centů 1200. V případě rovnoměrně temperovaného ladění to tedy znamená, že půltón jich obsahuje přesně sto. K dispozici tak máme užitečný nástroj, který nám umožňuje jednoduše porovnávat různé typy ladění mezi sebou.
+Například již několikrát zmíněné Pythagorejské koma má hodnotu 23,46 centů. V tabulce ~\ref{tbl:12tet_just_comparison} jsou pak znázorněny rozdíly mezi čistým a rovnoměrně temperovaným laděním.
+
+\begin{table}[p]\centering
+	\begin{tabular}{ c c c c c c}
+		& \multicolumn{2}{c}{\textbf{12TET}} & \multicolumn{2}{c}{\textbf{Čisté ladění}} & \\
+		\textbf{Interval} & \textbf{Hodnota} & \textbf{Centy} & \textbf{Hodnota} & \textbf{Centy} & \textbf{Chyba}  \\ \hline
+		prima & $2^{0/12} = 1$ & 0 & $\dfrac{1}{1}$ & 0 & 0 \\
+		malá sekunda & $2^{1/12} = \sqrt[12]{2}$ & 100 & $\dfrac{16}{15}$ & 111,73 & -11,73 \\
+		velká sekunda & $2^{2/12} = \sqrt[6]{2}$ & 200 & $\dfrac{9}{8}$ & 203,91 & -3,94 \\
+		malá tercie & $2^{3/12} = \sqrt[4]{2}$ & 300 & $\dfrac{6}{5}$ & 315,64 & -15,64 \\
+		velká tercie & $2^{4/12} = \sqrt[3]{2}$ & 400 & $\dfrac{5}{4}$ & 386,31& +13,69 \\
+		čistá kvarta & $2^{5/12} = \sqrt[12]{32}$ & 500 & $\dfrac{4}{3}$ & 498,04 & +1,96 \\
+		tritón & $2^{6/12} = \sqrt{2}$ & 600 & $\dfrac{7}{5}$ & 582,51 & +17,49 \\
+		čistá kvinta & $2^{7/12} = \sqrt[12]{128}$ & 700 & $\dfrac{3}{2}$ & 701,96 & -1,96 \\
+		malá sexta & $2^{8/12} = \sqrt[3]{4}$ & 800 & $\dfrac{8}{5}$ & 813,69 & -13,69 \\
+		velká sexta & $2^{9/12} = \sqrt[4]{8}$ & 900 & $\dfrac{5}{3}$ & 884,36 & +15,64 \\
+		malá septima & $2^{10/12} = \sqrt[6]{32}$ & 1000 & $\dfrac{16}{9}$ & 996,09 & +3,91 \\
+		velká septima & $2^{11/12} = \sqrt[12]{2048}$ & 1100 & $\dfrac{15}{8}$ & 1088,27 & +11,73 \\
+		oktáva & $2^{12/12} = 2$ & 1200 & $\dfrac{2}{1}$ & 1200 & 0 \\
+	\end{tabular}
+	\label{tbl:12tet_just_comparison}
+\end{table}
 
 \begin{figure}[p]\centering
 	\includegraphics[width = \textwidth]{et_pyth_comparison.pdf}
