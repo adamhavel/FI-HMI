@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.5)  5 JUN 2013 13:57
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.5)  5 JUN 2013 18:06
 entering extended mode
  %&-line parsing enabled.
 **index.tex
@@ -415,15 +415,21 @@ ersion <1.5>, but at most version <1.4> allowed
 <./img/harmonics.pdf, id=17, 803.0pt x 891.33pt>
 File: ./img/harmonics.pdf Graphic file (type pdf)
  <use ./img/harmonics.pdf>
-[3 <./img/monochord.jpg>] [4 <./img/harmonics.pdf>] [5] [6] [7] [8] [9]
+[3 <./img/monochord.jpg>] [4 <./img/harmonics.pdf>] [5]
+Overfull \hbox (4.15454pt too wide) in paragraph at lines 107--108
+[]\T1/cmr/m/n/12 Jeho ve-li-kost je p°i-bliºn¥ rovna £tvrt p·l-tónu. Ke stej-né
+mu po-m¥ru bychom
+ []
+
+[6] [7] [8] [9] [10] [11]
 
 pdfTeX warning: pdflatex (file ./img/et_pyth_comparison.pdf): PDF inclusion: fo
 und PDF version <1.5>, but at most version <1.4> allowed
-<./img/et_pyth_comparison.pdf, id=55, 636.77902pt x 476.179pt>
+<./img/et_pyth_comparison.pdf, id=63, 636.77902pt x 476.179pt>
 File: ./img/et_pyth_comparison.pdf Graphic file (type pdf)
 
-<use ./img/et_pyth_comparison.pdf> [10] [11] [12 <./img/et_pyth_comparison.pdf>
-] (./index.bbl
+<use ./img/et_pyth_comparison.pdf> [12] [13 <./img/et_pyth_comparison.pdf>]
+(./index.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 12.
  (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -445,15 +451,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--23
 f _ pitch _
  []
 
-) [13] (./index.aux) ) 
+) [14] (./index.aux) ) 
 Here is how much of TeX's memory you used:
  2867 strings out of 495027
  33119 string characters out of 1181420
- 99244 words of memory out of 3000000
+ 100244 words of memory out of 3000000
  6020 multiletter control sequences out of 15000+50000
  14036 words of font info for 39 fonts, out of 3000000 for 9000
  38 hyphenation exceptions out of 8191
- 27i,13n,28p,1004b,278s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,13n,28p,1491b,278s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.en
 c}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-te
@@ -467,9 +473,9 @@ per/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sftt1200.pfb>
-Output written on index.pdf (13 pages, 350623 bytes).
+Output written on index.pdf (14 pages, 354346 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 129 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

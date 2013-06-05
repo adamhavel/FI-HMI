@@ -4,7 +4,7 @@
 \usepackage{graphicx}
 \graphicspath{{./img/}}
 \usepackage{wrapfig}
-\renewcommand{\arraystretch}{2.5}
+\renewcommand{\arraystretch}{2.3}
 \usepackage[numbers]{natbib}
 \usepackage[czech]{babel}
 \usepackage[T1]{fontenc}
@@ -40,7 +40,7 @@ Ve světle těchto zjištění se absolutní sluch jeví jako svého druhu Danaj
 
 Hudba, jak ji známe, by nemohla existovat nebýt jedné vlastnosti lidského mozku, a to sice té, že dva tóny vnímá jako v podstatě stejné, pokud jsou od sebe vzdáleny o interval oktávy. To jinými slovy znamená, že jsou jejich frekvence členy stejné geometrické posloupnosti o kvocientu 2 — jako A jsou tedy shodně označeny například tóny o frekvenci 440 a 220 Hz. Tuto vlastnost mimochodem sdílíme s mnoha dalšími savci \cite{octave_circularity}.
 
-Ladění pak není nic jiného, než způsob, jak takto daný frekvenční rozsah rozdělit na jednotlivé tóny. Zde je důležité poznamenat, že ačkoliv v naší kultuře jsme zvyklí (už od Pythagora!) používat tónu dvanáct, jejich množství — ač podstatné — není pevně dané.
+Ladění pak není nic jiného, než způsob, jak takto daný frekvenční rozsah rozdělit na jednotlivé tóny. Zde je důležité poznamenat, že ačkoliv v naší kultuře jsme zvyklí používat tónu dvanáct, jejich množství — ač podstatné — není pevně dané.
 
 \begin{wrapfigure}{l}{0.4 \textwidth}\centering
 	\includegraphics[width = 0.1 \textwidth]{monochord.jpg}
@@ -104,7 +104,7 @@ Rozdílu mezi těmito dvěma tóny se říká \emph{Pythagorejské koma}. Jde o 
 \dfrac{\left(3 : 2\right)^{12}}{\left(2 : 1\right)^7} = \dfrac{3^{12}}{2^{12 + 7}} = \dfrac{531441}{524288} \approx 1,01364
 \end{equation}
 
-Jeho velikost je tedy přibližně rovna čtvrt půltónu. Ke stejnému poměru bychom došli, pokud bychom dělili interval šesti velkých sekund, neboli $(9 : 8)^6$, oktávou, tedy dvěma. Ačkoliv by taková posloupnost sekund měla vést k čisté oktávě, výsledkem je zase interval o něco málo větší. Tímto způsobem ostatně ono koma objevil a spočítal již Euklides \cite{barker}.
+Jeho velikost je přibližně rovna čtvrt půltónu. Ke stejnému poměru bychom došli, pokud bychom dělili interval šesti velkých sekund, neboli $(9 : 8)^6$, oktávou, tedy dvěma. Ačkoliv by taková posloupnost sekund měla vést k čisté oktávě, výsledkem je zase interval o něco málo větší. Tímto způsobem ostatně ono koma objevil a spočítal již Euklides \cite{barker}.
 
 Zde je ovšem třeba si znovu připomenout, že není vůbec nutné, aby oktáva měla přesně dvanáct tónů. Stejně tak dobře jich může mít pět. Nebo tisíc. Pro potřeby Pythagorejského tonálního systému je však toto číslo vhodné z toho důvodu, že není příliš velké — což usnadňuje konstrukci hudebních nástrojů a neklade tak velké nároky na muzikanty — a zároveň s uspokojivou přesností uzavíra takzvaný \emph{kvintový kruh}, až na zmíněné Pythagorejské koma.
 
@@ -127,7 +127,7 @@ Odpovědí na tyto trendy bylo takzvané temperování, které dalo vzniknout la
 
 Temperovaná ladění se od sebe odlišují tím, jak k úpravě intervalů přistupují — základní dělení spočívá v rozlišení ladění temperovaných nerovnoměrně a ladění středotónových. V prvním případě získáme řadu tónu, ve které jsou sice intervaly oproti přirozenému ladění pozměněné, ale kde stále platí, že intervaly stejného typu (třeba malé sekundy) mohou být rozdílné. Takové temperování nám sice dává větší volnost při modulaci, ale zároveň připravuje půdu pro jev, který se nazývá barva tóniny. Ta vzniká díky tomu, že je disonance vlčího intervalu mezi tóny rozložena nerovnoměrně — v každé tónině se pak tyto heterogenní deviace od čistého ladění objevují na různých místech, což ve výsledku dává tóninám onu barvu a nám možnost tóniny od sebe podle sluchu rozlišit.
 
-Středotónová ladění se naopak vyznačují tím, že úpravy všech intervalů jsou identické. Nejdůležitější z nich je pak již zmíněné rovnoměrně temperované ladění.
+Středotónová ladění se naopak vyznačují tím, že úpravy všech intervalů jsou identické. Nejdůležitější z nich je pak již dříve zmíněné rovnoměrně temperované ladění (také známo jako 12TET, od \emph{twelve-tone equal temperament}), které v průběhu sedmnáctého a osmnáctého století upevnilo svou dominantní pozici, jež si bez větších potíží udrželo až do současnosti \cite{smolka}. Jeho hlavní devizou je samozřejmě naprostá harmonická svoboda — všechny tóniny jsou si rovny, můžeme tedy modulovat dle libosti.
 
 Tóny v tomto ladění můžeme vytvořit dvěma způsoby. V prvním z nich vyjdeme z Pythagorejského ladění, avšak místo čisté kvinty použijeme kvintu, ke které přidáme jednu dvanáctinu Pythagorejského koma. Pokud s takovým intervalem provedeme dvanáct kroků, musíme logicky skončit přesně na intervalu oktávy — koma jsme totiž rovnoměrně rozložili na všech dvanáct kvint a ty pak mají totožnou velikost.
 
@@ -139,8 +139,7 @@ Druhý — a intuitivnější — způsob je založený na rozložení oktávy n
 
 Jde o irracionální číslo, jehož hodnota je přibližně rovna 1,059463, je tedy zřejmé, že všechny ostatní intervaly krom oktávy jsou taktéž vyjádřeny pomocí irracionálnich čísel a tím pádem se žádný nerovná svému čistému protějšku.
 
-Pro snadnější zápis velikosti intervalů vznikla jednotka — podobně jako decibel bezrozměrná a logaritmická — jménem cent, která je definována v tom smyslu, že v jedné oktávě je těchto centů 1200. V případě rovnoměrně temperovaného ladění to tedy znamená, že půltón jich obsahuje přesně sto. K dispozici tak máme užitečný nástroj, který nám umožňuje jednoduše porovnávat různé typy ladění mezi sebou.
-Například již několikrát zmíněné Pythagorejské koma má hodnotu 23,46 centů. V tabulce ~\ref{tbl:12tet_just_comparison} jsou pak znázorněny rozdíly mezi čistým a rovnoměrně temperovaným laděním.
+Pro snadnější zápis velikosti těchto intervalů vznikla jednotka — podobně jako decibel bezrozměrná a logaritmická — jménem cent, která je definována takovým způsobem, že v jedné oktávě je těchto centů 1200. V případě rovnoměrně temperovaného ladění to znamená, že půltón jich obsahuje přesně sto. K dispozici tak máme užitečný nástroj, který nám umožňuje jednoduše porovnávat různé typy ladění mezi sebou. Například již několikrát zmíněné Pythagorejské koma má hodnotu 23,46 centů. V tabulce ~\ref{tbl:12tet_just_comparison} jsou pak pomocí této jednotky vyčísleny rozdíly mezi čistým a rovnoměrně temperovaným laděním a na obrázku ~\ref{fig:et_pyth_comparison} jsou ještě pro zajímavost znázorněny odchylky od ladění Pythagorejského.
 
 \begin{table}[p]\centering
 	\begin{tabular}{ c c c c c c}
@@ -148,7 +147,7 @@ Například již několikrát zmíněné Pythagorejské koma má hodnotu 23,46 c
 		\textbf{Interval} & \textbf{Hodnota} & \textbf{Centy} & \textbf{Hodnota} & \textbf{Centy} & \textbf{Chyba}  \\ \hline
 		prima & $2^{0/12} = 1$ & 0 & $\dfrac{1}{1}$ & 0 & 0 \\
 		malá sekunda & $2^{1/12} = \sqrt[12]{2}$ & 100 & $\dfrac{16}{15}$ & 111,73 & -11,73 \\
-		velká sekunda & $2^{2/12} = \sqrt[6]{2}$ & 200 & $\dfrac{9}{8}$ & 203,91 & -3,94 \\
+		velká sekunda & $2^{2/12} = \sqrt[6]{2}$ & 200 & $\dfrac{9}{8}$ & 203,91 & -3,91 \\
 		malá tercie & $2^{3/12} = \sqrt[4]{2}$ & 300 & $\dfrac{6}{5}$ & 315,64 & -15,64 \\
 		velká tercie & $2^{4/12} = \sqrt[3]{2}$ & 400 & $\dfrac{5}{4}$ & 386,31& +13,69 \\
 		čistá kvarta & $2^{5/12} = \sqrt[12]{32}$ & 500 & $\dfrac{4}{3}$ & 498,04 & +1,96 \\
@@ -160,8 +159,15 @@ Například již několikrát zmíněné Pythagorejské koma má hodnotu 23,46 c
 		velká septima & $2^{11/12} = \sqrt[12]{2048}$ & 1100 & $\dfrac{15}{8}$ & 1088,27 & +11,73 \\
 		oktáva & $2^{12/12} = 2$ & 1200 & $\dfrac{2}{1}$ & 1200 & 0 \\
 	\end{tabular}
+	\caption{Porovnání 12TET a čistého ladění}
 	\label{tbl:12tet_just_comparison}
 \end{table}
+
+Z tabulky jasně vyplývá, že podobně jako jsme v případě Pythagorejského ladění získali kvartu jako inverzi kvinty, můžeme této vlasnosti využít i u ostatních intervalů. Malá tercie je tedy například inverzí velké sexty, což znamená, že spolu mimo jiné sdílejí i chybu (tedy odchylku od čistého ladění), byť s obráceným znaménkem. Také je zřejmé, že tyto odchylky se interval od intervalu výrazně liší — pokud je v kvintě se vyskytující chyba jen nepatrná, ta v tercii zjevně už tak bezvýznamná není. Ostatně její hodnota dosahuje více jak poloviny Pythagorejského koma.
+
+Naše zkušenosti s hudbou se nicméně téměř bezvýhradně týkají rovnoměrného temperování, je tedy na místě předpokládat, že jsme tento nedostatek přijali za svůj a jako chybu jej normálně nevnímáme.
+
+I přes svojí dominanci a nesporné výhody však toto ladění není nutně nejlepší či nejvhodnější. Jak už jsme zmínili výše, některé hudební soubory například při reprodukci raně barokního repertoáru používají ladění dobové, a to z důvodu co největší autentičnosti. Pro další příklad se nemusíme dívat jen do minulosti — od vzniku elektronických syntetizátorů vznikl celý proud hudebníků a teoretiků, kteří možnosti, jež nové technologie nabízejí, využívají po svém a s laděním pracují jako s hudebním prvkem v rámci skladby. Jsou i tací, co neopustili myšlenku čistého ladění a dávají přednost přirozeným intervalům před těmi umělými. Jiní si zase stěžují na \uv{sterilitu} rovnoměrného temperování a oceňují odlišnost a barvu tónin v jiných laděních. Na druhou stranu, nebýt oné sterility, nemohl by vzniknout jeden z nových hudebních směrů dvacátého století, a to sice dodekafonní serialismus Arnolda Schönberga. Ten je totiž založený na destrukci klasických funkcí tónů, jak je známe z klasické diatonické harmonie, a jejich nahrazení chromatickou řadu, ve které žádný tón není důležitější než ostatní — pro jiná ladění nemožný úkol. Přes to všechno však ve výsledku stejně záleží jen a jen na hudbě samotné — ladění a podoba tónů se vždy měnily a s největší pravděpodobností se budou měnit i nadále.
 
 \begin{figure}[p]\centering
 	\includegraphics[width = \textwidth]{et_pyth_comparison.pdf}
